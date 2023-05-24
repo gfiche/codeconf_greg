@@ -1,8 +1,7 @@
 @font-face {
   font-family: toto;
   src: url("webfonts/maven_Pro/MavenPro-VariableFont_wght.ttf") format("truetype-variations");
-  font-variation-settings: 'wght'400, 'wght'900;
-
+  font-variation-settings: "wght" 400, "wght" 900;
 }
 @font-face {
   font-family: icon;
@@ -11,3 +10,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1 {
+  font-family: toto;
+  font-variation-settings: "wght" 400;
+}
+h1::before {
+  content: "\e93f";
+  font-family: icon;
+}/*# sourceMappingURL=style.css.map */
